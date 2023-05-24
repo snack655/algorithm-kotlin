@@ -1,13 +1,15 @@
-package programmers.trip
+package programmers.dbfs.trip
 
 fun main() {
-    print(solution(
+    print(
+        solution(
         arrayOf(
             arrayOf("ICN", "JFK"),
             arrayOf("HND", "IAD"),
             arrayOf("JFK", "HND"),
         )
-    ))
+    )
+    )
 }
 
 lateinit var visit: MutableList<Boolean>
